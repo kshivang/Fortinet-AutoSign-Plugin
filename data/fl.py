@@ -37,7 +37,8 @@ def login(logout_status_code):
         # UserName = raw_input('IITK user name:')
         # Password = getpass.getpass('Password:')
 
-        payload = {'4Tredir': Tredir, 'magic': Magic, 'username': 'kshivang', 'password': 'Kuchnaya'}
+# First fill your fill your Username and password
+        payload = {'4Tredir': Tredir, 'magic': Magic, 'username': 'Your UserName', 'password': 'Your Password'}
 
         f = requests.post('https://gateway.iitk.ac.in:1003', data = payload);
 
